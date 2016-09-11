@@ -1,0 +1,194 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{ }
+.clear{ clear:both;}
+.header{ width:1200px; margin:0 auto 30px auto;}
+.header span{ display:inline-block; background:#000; font-size:24px; color:#a8ada9; line-height:83px; padding:0 200px 0 8px; margin-bottom:38px;}
+.header h1{ font-size:56px; color:#232122; margin-bottom:20px;}
+.header p{ font-size:20px; color:#7f8081; margin-bottom:10px;}
+
+.content{ width:1200px; margin:0 auto;}
+.content .side{ width:330px; float:left; position:relative;}
+.content .side img{ position:absolute; left:0; top:0; width:260px; }
+.content .side ul{ -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; margin:30px 0 0 40px; padding:275px 0 0 0; background:#000;}
+.content .side ul li{ margin-left:26px;}
+.content .side ul li h3{ font-size:18px; color:#fff; margin-bottom:50px;}
+.content .side ul li p{ font-size:12px; color:#d6d6d6; margin-bottom:35px;}
+.content .side ul li p.title{ font-size:12px; color:#989898; margin-bottom:5px;}
+.content .side ul li .line{ width:100px; height:1px; background:#85898c;}
+.content .side ul li.contact-area p{ font-size:20px; color:#d6d6d6; margin-bottom:35px; font-weight: lighter;}
+.content .side ul li.contact-area p.title{ margin-bottom:15px; font-weight: normal;}
+.content .side ul li.sosial-area p{ font-size:20px; color:#d6d6d6; margin-bottom:15px;}
+.content .side ul li.sosial-area ul{ margin:0; padding:0 0 180px 0;}
+.content .side ul li.sosial-area ul li{ font-size:12px; color:#d6d6d6; margin-left:0; line-height: 30px;}
+.content .side ul li.sosial-area ul li img{ margin-right:10px; width:auto; position:static; height:auto;vertical-align: middle;}
+
+.content .contents{ width:870px; float:right; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; padding-left:40px;}
+.content .contents div .left-area{ width:340px; float:left; margin-right:100px;}
+.content .contents div .left-area h1{ font-size:28px; color:#1e1c1d; font-weight:normal; margin-bottom:36px;}
+.content .contents div .left-area ul li h4{ font-size:18px; color:#000000; margin-bottom:10px;}
+.content .contents div .left-area ul li p{ font-size:14px; color:#767373; margin-bottom:30px;}
+.content .contents div .right-area{ float:right; width:340px;}
+.content .contents div .right-area h1{ font-size:28px; color:#1e1c1d; font-weight:normal; margin-bottom:36px;}
+.content .contents div .right-area ul li h4{ font-size:18px; color:#000000; margin-bottom:10px;}
+.content .contents div .right-area ul li p{ font-size:14px; color:#767373; margin-bottom:30px;}
+
+.content .contents div.line{ width:750px; height:1px; background:#85898c; margin-bottom:20px;}
+
+.content .contents div.education-area h1{ font-size:28px; color:#1e1c1d; font-weight:normal; margin-bottom:36px;}
+.content .contents div.education-area ul li div.div-left{ float:left; margin-bottom:15px;}
+.content .contents div.education-area ul li div span.span-title{ font-size:18px; color:#1e1c1d; margin-bottom:15px;}
+.content .contents div.education-area ul li div span.date{ font-size:14px; color:#7f8081;}
+.content .contents div.education-area ul li div.div-right{ float:left; font-size:18px; color:#575555; margin:0 0 15px 120px;}
+.content .contents div.education-area ul li p{ font-size:14px; color:#767373;margin-bottom:35px;}
+.content .contents div.education-area ul li p.describe{ font-size:18px; color:#000;margin-bottom:15px;}
+.content .contents div.education-area ul li p.describe b{ font-size:18px; color:#000; font-weight:bold;}
+.content .contents div.skill-area{ margin-bottom:30px;}
+.content .contents div.skill-area span{ font-size:14px; color:#666565; float:left;}
+
+
+/* progressbar */
+.date-progress{ width:132px; float:right; margin-bottom:20px;}
+.progress {
+  overflow: hidden;
+  height: 1.2em;
+  background-color: #bfbfbf;
+}
+.progress-bar {
+  float: left;
+  width: 0%;
+  height: 100%;
+  font-size: 12px;
+  line-height: 20px;
+  color: #ffffff;
+  text-align: center;
+  background-color: #666565;
+  -webkit-transition: width 0.6s ease;
+  -o-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+}
+.progress-striped .progress-bar,
+.progress-bar-striped {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-size: 40px 40px;
+}
+.progress.active .progress-bar,
+.progress-bar.active {
+  -webkit-animation: progress-bar-stripes 2s linear infinite;
+  -o-animation: progress-bar-stripes 2s linear infinite;
+  animation: progress-bar-stripes 2s linear infinite;
+}
+.progress-bar-success {
+  background-color: #5cb85c;
+}
+.progress-striped .progress-bar-success {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+.progress-bar-info {
+  background-color: #5bc0de;
+}
+.progress-striped .progress-bar-info {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+.progress-bar-warning {
+  background-color: #f0ad4e;
+}
+.progress-striped .progress-bar-warning {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+.progress-bar-danger {
+  background-color: #d9534f;
+}
+.progress-striped .progress-bar-danger {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+.progress {
+  position: relative;
+}
+.progress .progress-bar {
+  position: absolute;
+  overflow: hidden;
+  line-height: 20px;
+}
+.progress .progressbar-back-text {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+}
+.progress .progressbar-front-text {
+  display: block;
+  width: 100%;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+}
+.progress.right .progress-bar {
+  right: 0;
+}
+.progress.right .progressbar-front-text {
+  position: absolute;
+  right: 0;
+}
+.progress.vertical {
+  width: 20px;
+  height: 100%;
+  float: left;
+  margin-right: 20px;
+}
+.progress.vertical.bottom {
+  position: relative;
+}
+.progress.vertical.bottom .progressbar-front-text {
+  position: absolute;
+  bottom: 0;
+}
+.progress.vertical .progress-bar {
+  width: 100%;
+  height: 0;
+  -webkit-transition: height 0.6s ease;
+  -o-transition: height 0.6s ease;
+  transition: height 0.6s ease;
+}
+.progress.vertical.bottom .progress-bar {
+  position: absolute;
+  bottom: 0;
+}
+
+
+
+.content .contents div.education-area ul li div.div-left{ float:left; margin-bottom:15px;}
+.content .contents div.education-area ul li div span.span-title{ font-size:18px; color:#1e1c1d; margin-bottom:15px;}
+.content .contents div.education-area ul li div span.date{ font-size:14px; color:#7f8081;}
+.content .contents div.education-area ul li div.div-right{ float:left; font-size:18px; color:#575555; margin:0 0 15px 120px; font-weight: bold;}
+
+
+.content .contents div.lang .left-area table tr th{ font-size:14px; color:#666565; line-height:25px; padding-right:20px;}
+.content .contents div.lang .left-area table tr td{ font-size:14px; color:#666565; font-weight:bolder;}
+.content .contents div.lang .right-area p{ font-size:14px; color:#7f8081;}
+
+
+.footer{ margin-top:120px; height:80px; background:#87888c; padding:13px 80px 0 0;}
+.footer h1{ font-size:20px; color:#f6f6f6; text-align:right; margin:0 0 15px 0;}
+.footer p{ font-size:18px; color:#f6f6f6; text-align:right;}
+
+
+
+
+
+
+
+
