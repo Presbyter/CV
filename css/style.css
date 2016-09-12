@@ -1,7 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
 
-body{ }
 .clear{ clear:both;}
 .header{ width:1200px; margin:0 auto 30px auto;}
 .header span{ display:inline-block; background:#000; font-size:24px; color:#a8ada9; line-height:83px; padding:0 200px 0 8px; margin-bottom:38px;}
@@ -41,7 +40,8 @@ body{ }
 .content .contents div.education-area ul li div span.span-title{ font-size:18px; color:#1e1c1d; margin-bottom:15px;}
 .content .contents div.education-area ul li div span.date{ font-size:14px; color:#7f8081;}
 .content .contents div.education-area ul li div.div-right{ float:left; font-size:18px; color:#575555; margin:0 0 15px 120px;}
-.content .contents div.education-area ul li p{ font-size:14px; color:#767373;margin-bottom:35px;}
+.content .contents div.education-area ul li p{ font-size:14px; color:#767373;}
+.content .contents div.education-area ul li p.bottom{margin-bottom:35px;}
 .content .contents div.education-area ul li p.describe{ font-size:18px; color:#000;margin-bottom:15px;}
 .content .contents div.education-area ul li p.describe b{ font-size:18px; color:#000; font-weight:bold;}
 .content .contents div.skill-area{ margin-bottom:30px;}
