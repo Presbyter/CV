@@ -28,7 +28,7 @@
 .content .contents div .left-area h1{ font-size:28px; color:#1e1c1d; font-weight:normal; margin-bottom:36px;}
 .content .contents div .left-area ul li h4{ font-size:18px; color:#000000; margin-bottom:10px;}
 .content .contents div .left-area ul li p.bottom{ font-size:14px; color:#767373; margin-bottom:30px;}
-.content .contents div .right-area{ float:right; width:340px;}
+.content .contents div .right-area{ float:left; width:340px;}
 .content .contents div .right-area h1{ font-size:28px; color:#1e1c1d; font-weight:normal; margin-bottom:36px;}
 .content .contents div .right-area ul li h4{ font-size:18px; color:#000000; margin-bottom:10px;}
 .content .contents div .right-area ul li p{ font-size:14px; color:#767373; margin-bottom:30px;}
